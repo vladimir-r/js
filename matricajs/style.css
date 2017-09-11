@@ -1,0 +1,23 @@
+div,img{
+    margin: 0;
+    padding: 0;
+}
+#block{
+    width: 1700px;
+    height: 1000px;
+    border: 1px solid blueviolet;
+    box-sizing: border-box;
+    position: relative;
+}
+.pic{
+    float: left;
+}
+#I{
+    width: 600px;
+}
+.item{
+    border: 1px solid red;
+    box-sizing: border-box;
+    position: absolute;
+    background: gold;
+}
