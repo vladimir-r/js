@@ -1,0 +1,12 @@
+.block{
+	margin:50px 150px;
+	width: 1000px;
+	height: 600px;
+	border:1px solid;
+	transition:width 2s;
+	background-image:url(http://profismart.org/album/02/Priroda_144.jpg)
+}
+
+/* .block:hover{
+	width: 300px;
+} */
