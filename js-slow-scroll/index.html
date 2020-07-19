@@ -7,10 +7,28 @@
 		.h2 {
   margin-bottom: 100vh;
 }
+.wraper{
+	position: relative;
+}
+#arrowTop {
+      height: 9px;
+      width: 14px;
+      color: green;
+      position: fixed;
+      top: 10px;
+      right : 150px;
+      cursor: pointer;
+    }
+
+    #arrowTop::before {
+      content: '▲';
+      font-size: 100px
+    }
 	</style>
 </head>
 <body>
-	
+	<div class="wraper">
+	<div id="arrowTop" hidden></div>
 
 <div class="h2">
 <h2 id="head1">heading 1</h2>
@@ -27,6 +45,7 @@
 <div class="h2">
 <h2 id="head4">heading 4</h2>
 <a href="#head1">head 1</a>
+</div>
 </div>
 	<script src='slow-scroll.js'></script>
 </body>
